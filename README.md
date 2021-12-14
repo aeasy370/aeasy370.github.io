@@ -1,2 +1,2 @@
-# aesy370.github.io
-Personal website for aesy370
+# aeasy370.github.io
+Personal website for aeasy370
