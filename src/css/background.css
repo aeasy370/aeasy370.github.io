@@ -1,0 +1,37 @@
+.bg{
+	animation: slide 15s ease-in-out infinite alternate;
+	background-image: linear-gradient(330deg, indigo 33%, rgb(117, 0, 201) 30%, rgb(98, 0, 255) 10%);
+	bottom: -10%;
+	left: -50%;
+	opacity: .25;
+	position: fixed;
+	right: -50%;
+	top: -10%;
+	z-index: -1;
+	filter: blur(15px) drop-shadow(16px 16px 20px rgb(130, 0, 113)) var(infinite) hue-rotate(180);
+	filter: contrast(100%);
+}
+
+.bg2{
+	animation-direction: alternate-reverse;
+	animation-duration: 15s;
+}
+
+.bg3{
+	animation-direction: alternate-reverse;
+	animation-duration: 20s;
+}
+
+.linkbg{
+	background-color: pink;
+	padding-block: 5px 5px 5px 10px;
+}
+
+@keyframes slide{
+		0%{
+			transform: translateX(-25%);
+		}
+		100%{
+			transform: translateY(25%);
+		}
+}
